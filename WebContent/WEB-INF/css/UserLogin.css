@@ -1,0 +1,88 @@
+h2{
+	font-weight:bold;
+}
+.title{ 
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.ff-login {
+     background-color:#f22261;
+     background-image:linear-gradient(to right, #f22261,#f25c22);
+     font-family:'Open Sans', sans-serif;
+     padding:60px 0;
+}
+ .ff-login-box {
+     background:#fff;
+     border-radius:5px;
+     box-shadow: 0 0px 124px 0px rgba(0, 0, 0, 0.1);
+     margin:0px auto;
+     max-width:400px;
+     padding:40px;
+}
+ .ff-login-box .form-control::placeholder {
+     color: #999;
+}
+ .ff-login-box .form-control::-moz-placeholder {
+     color: #999;
+}
+ .ff-login-box .form-control:-ms-input-placeholder {
+     color: #999;
+}
+ .ff-login-box .form-control::-webkit-input-placeholder {
+     color: #999;
+}
+ .ff-login-box .form-control {
+     border:1px solid #e6e6e6;
+     border-radius:40px;
+     box-shadow:inset 0 0 2px #f0f0f0;
+     color:#555;
+     font-size:18px;
+}
+ .ff-login-box .form-control:focus{
+     border:1px solid transparent;
+     box-shadow:inset 0 0 4px #ccc;
+     outline: none;
+}
+ .ff-login-box .btn {
+     background-color:#f22261;
+     background-image:linear-gradient(to right, #f22261,#f25c22);
+     border:none;
+     border-radius:40px;
+     width:100%;
+}
+ .ff-login-box .btn:hover, .ff-login-box .btn:focus, .ff-login-box .btn:active {
+     background-color: #f22261 !important;
+     background-image:linear-gradient(to left, #f22261,#f25c22) !important;
+     border:none !important;
+     box-shadow:none !important;
+}
+ .ff-login .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+     background-color: #f22261;
+     box-shadow:none;
+}
+ .ff-login .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+     box-shadow:none;
+}
+ .ff-login .custom-checkbox .custom-control-label::before {
+     border-radius: 0.25rem;
+}
+ .ff-login .custom-control-label::before {
+     background-color:#ccc;
+}
+.TAIEX{
+	margin:0;
+	padding:0;
+	font-size:88px;
+	text-align:center;
+	font-weight:bold;
+}
+.wrong{
+	color:red;
+	font-size:12px;
+}
+.registerOK{
+	color:green;
+	font-size:12px;
+}
